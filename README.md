@@ -21,6 +21,14 @@
     Note : If there versions are below the specified then update Node
 3. Install Angular CLI ( Command Line Interface ) : **npm install -g @angular/cli**
    [ **Note :** command - **ng v** can be used to check angular version if it is already installed ]
-   
-## Creating a Angular Application 
-1. To create an Angular application : **ng new app-name** [ **Note :** this repo app name is **AngularDashBoard** ]
+
+## Creating an Angular Application 
+     To create an Angular application : **ng new app-name** 
+     [ **Note :** this repo app name is **AngularDashBoard** ]
+
+## Running the Application
+
+    1. Go to the application folder created by angular cli - cd AngularDashBoard
+    2. use the commang ng serve / npm start 
+    3. the application will be started on  http://localhost:4200 and can be viewd on any browser in your system.
+   [ **Note :** Initially default angular pages will be coded and viewed ]
