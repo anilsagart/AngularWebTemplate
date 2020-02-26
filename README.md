@@ -15,8 +15,8 @@
 1. Install [Node](https://nodejs.org/en/download/) specific to your operating system 
 2. If there is already Node installed in your system check the node and npm version with the following command
 
-   *    node -v ( version should be greater than v10.X ) 
-   *    npm -v ( version should be greater than v6.X )
+   *    node -v ( version should be v10.X or greater ) 
+   *    npm -v ( version should be v6.X or greater )
   
     Note : If there versions are below the specified then update Node
 3. Install Angular CLI ( Command Line Interface ) : **npm install -g @angular/cli**
@@ -24,7 +24,7 @@
 
 ## Creating an Angular Application 
      To create an Angular application : **ng new app-name** 
-     [ **Note :** this repo app name is **AngularDashBoard** ]
+[ **Note :** this repo app name is **AngularDashBoard** ]
 
 ## Running the Application
 
@@ -32,3 +32,6 @@
     2. use the commang ng serve / npm start 
     3. the application will be started on  http://localhost:4200 and can be viewd on any browser in your system.
    [ **Note :** Initially default angular pages will be coded and viewed ]
+
+## Removing the default code 
+    Go to AngularDashboard\src\app\app.component.html and delete the whole code and you are good to create new components.
