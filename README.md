@@ -48,3 +48,20 @@
 8. **node_modules/** - Provides npm packages to the entire workspace. Workspace-wide node_modules dependencies are visible to all projects.
 9. [**tsconfig.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/tsconfig.json) - Default TypeScript configuration for projects in the workspace.
 10. [**tslint.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/tslint.json) - Default TSLint configuration for projects in the workspace.
+
+## Installing Bootstrap
+1. Type the following command in Angular CLI : **npm install --save bootstrap**
+2. Link Bootstrap in [angular.json](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/angular.json) in 
+  
+    projects->architect->build->styles  
+    projects->architect->build->scripts 
+
+   so bootstrap can be added during the build. 
+
+    "styles": [  "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.css"],             
+    "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
+3. Learn more about [Bootstrap.](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
