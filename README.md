@@ -83,3 +83,6 @@
 2. Now go to [**app.component.html**]() and add < app-login ></ app-login >
 3. The login component html will now be show in http://localhost:4200/
 
+## Adding CSS styling to HTML elements into the component 
+1. Add the relavant CSS to the HTML elements in [**login.component.html**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.html) in [login.component.css](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/app.component.css)
+2. The login component with CSS changes will now be show in http://localhost:4200/
