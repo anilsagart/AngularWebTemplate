@@ -86,3 +86,18 @@
 ## Adding CSS styling to HTML elements into the component 
 1. Add the relavant CSS to the HTML elements in [**login.component.html**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.html) in [login.component.css](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/app.component.css)
 2. The login component with CSS changes will now be show in http://localhost:4200/
+
+
+## Adding Jquery since Bootstrap requires it 
+1. Type the following command in Angular CLI : **npm install --save jquery**
+2. Link Bootstrap in [angular.json](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/angular.json) in 
+  
+    projects->architect->build->scripts 
+
+   so bootstrap can be added during the build. 
+
+    "scripts": [
+ 
+        "./node_modules/jquery/dist/jquery.js",
+        "./node_modules/bootstrap/dist/js/bootstrap.js"
+    ]
