@@ -65,3 +65,15 @@
             ]
 3. Learn more about [Bootstrap.](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
+## Creating a Component 
+1. Go to the particular directory path where the component has to be created in my case it is **AngularDashboard\src\app\**
+2. Type the following command in Angular CLI : **ng generate component component_name** in this case it is **ng generate component login**
+3. The above command creates 
+    * A folder with name **login**
+    * and inside the folder it creates 4 template files 
+      * **login.component.css** - template for adding styles
+      * **login.component.html** - template for adding html elements
+      * **login.component.spec.ts** - template for writing test cases 
+      * **login.component.ts** - template for writing scripts
+4. After creating the template it can be configured/coded based on the requirements.
+
