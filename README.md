@@ -77,3 +77,9 @@
       * **login.component.ts** - template for writing scripts
 4. After creating the template it can be configured/coded based on the requirements.
 
+
+## Adding HTML elements into the component 
+1. Add the relavant HTML elements in [**login.component.html**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.html)
+2. Now go to [**app.component.html**]() and add < app-login ></ app-login >
+3. The login component html will now be show in http://localhost:4200/
+
