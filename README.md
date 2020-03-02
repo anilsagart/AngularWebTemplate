@@ -34,4 +34,17 @@
    [ **Note :** Initially default angular pages will be coded and viewed ]
 
 ## Removing the default code 
-    Go to AngularDashboard\src\app\app.component.html and delete the whole code and you are good to create new components.
+    1. Go to AngularDashboard\src\app\app.component.html 
+    2. Delete the whole code and you are good to create new components.
+
+## Project Structure
+1. [**.editorconfig**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/.editorconfig) - Configuration for code editors. See [EditorConfig](https://editorconfig.org/).
+2. [**.gitignore**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/.gitignore) - Specifies intentionally untracked files that [Git](https://git-scm.com/) should ignore.
+3. [**README.md**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/README.md) - Introductory documentation for the root app.
+4. [**angular.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/angular.json) - CLI configuration defaults for all projects in the workspace, including configuration options for build, serve, and test tools that the CLI uses, such as [TSLint](https://palantir.github.io/tslint/), [Karma](https://karma-runner.github.io/latest/index.html), and [Protractor](http://www.protractortest.org/). For details, see Angular Workspace Configuration.
+5. [**package.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/package.json) - Configures npm package dependencies that are available to all projects in the workspace. See npm documentation for the specific format and contents of this file.
+6. [**package-lock.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/package-lock.json) - Provides version information for all packages installed into node_modules by the npm client. See npm documentation for details. If you use the yarn client, this file will be yarn.lock instead.
+7. [**src/**](https://github.com/anilsagart/AngularWebTemplate/tree/master/AngularDashboard/src) - Source files for the root-level application project.
+8. **node_modules/** - Provides npm packages to the entire workspace. Workspace-wide node_modules dependencies are visible to all projects.
+9. [**tsconfig.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/tsconfig.json) - Default TypeScript configuration for projects in the workspace.
+10. [**tslint.json**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/tslint.json) - Default TSLint configuration for projects in the workspace.
