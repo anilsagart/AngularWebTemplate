@@ -1,12 +1,15 @@
 <div class="wrapper fadeInDown">
     <div id="formContent">
         <div class="fadeIn first">
-            <label>LogIn</label>
+            <label class="text-muted display-4">LogIn</label>
         </div>
         <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="User Name">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-            <input type="submit" class="fadeIn fourth" value="Log In">
+            <input value={{userName}} (keyup)="getUserName($event)" type="text" id="login" class="fadeIn second"
+                name="login" placeholder="User Name">
+            <input value={{password}} (keyup)="getPassword($event)" type="password" id="password" class="fadeIn third"
+                name="login" placeholder="Password">
+            <button class="fadeIn fourth" type="button" class="btn btn-primary" (click)="onLogin()">Log
+                In</button>
         </form>
 
     </div>

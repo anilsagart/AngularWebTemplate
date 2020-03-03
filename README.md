@@ -101,3 +101,17 @@
         "./node_modules/jquery/dist/jquery.js",
         "./node_modules/bootstrap/dist/js/bootstrap.js"
     ]
+
+## Linking HTML Template with Functional Script - Data and Event Binding 
+1. Data binding is the term used to communicate with the html template of a component from the functional script of the same component.
+2. Data Binding is the process where the data variable can be used in the following format below to display the data in the HTML template. It has 2 format associated 
+   1. String Interpolation - **( {{ data }} )**
+   2. Property Binding - **( [ property ] = "data" )**
+3. Event Binding is the process where the function is linked to the events that occurs in HTML template. 
+    This can be achieved from the following syntax -  **( (event) = "function()" )**.
+4. We can combine both the types and use it in our scripts with **ngModel** and it is called **Two-Way Data Binding**. It can be achieved by the following syntax - **[ ( ngModel ) ] = "data"**
+5. This Data and Event Binding is in login component's html and script template.
+   1.  [**login.component.html**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.html)
+   2.   [**login.component.ts**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.ts)
+
+
