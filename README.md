@@ -115,3 +115,14 @@
    2.   [**login.component.ts**](https://github.com/anilsagart/AngularWebTemplate/blob/master/AngularDashboard/src/app/login/login.component.ts)
 
 
+## Creating the Dashboard Component
+
+1. Go to the particular directory path where the component has to be created in my case it is **AngularDashboard\src\app**
+2. Type the following command in Angular CLI : **ng generate component component_name** in this case it is **ng generate component dashboard**
+3. The above command creates 
+    * A folder with name **dashboard**
+    * and inside the folder it creates 4 template files 
+      * **dashboard.component.css** - template for adding styles
+      * **dashboard.component.html** - template for adding html elements
+      * **dashboard.component.spec.ts** - template for writing test cases 
+      * **dashboard.component.ts** - template for writing scripts
