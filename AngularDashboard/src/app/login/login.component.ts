@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -11,14 +12,20 @@ export class LoginComponent implements OnInit {
   userName: String;
   password: String;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
   // function which is linked to the login button 
-  onLogin(): void {
-    alert("logged in:" + " User Name is : " + this.userName + " Password is : " + this.password);
+  onLogin = function () {
+
+    if (this.userName == "admin" && this.password == "nous123") {
+      this.router.navigateByUrl('/Home');
+    }
+    else {
+      alert("Please provide the correct username and password!")
+    }
   }
 
   // function which updates username value on key press

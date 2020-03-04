@@ -127,3 +127,42 @@
       * **dashboard.component.spec.ts** - template for writing test cases 
       * **dashboard.component.ts** - template for writing scripts
 4. Add relevant HTML, CS and TS for the dashboard component.
+
+## Add navigation / Routing 
+1. Add Routing modules to enable routing in **app.module.ts**  
+    
+        import { Routes, RouterModule } from '@angular/router';
+2. Create the routing path list in **app.module.ts** 
+   
+        const routes: Routes = [
+            {
+                path: '',
+                component: LoginComponent,
+                pathMatch: 'full',
+            },
+            {
+                path: 'login',
+                component: LoginComponent,
+                pathMatch: 'full',
+            },
+            {
+                path: 'Home',
+                component: DashboardComponent
+            }
+        ]; 
+
+3. add imports to **app.module.ts** 
+            
+        imports: [
+        RouterModule.forRoot(routes)
+        ]
+4. Add < router-outlet ></ router-outlet > in **app.component.html**
+5. Import router in the any component to enable routing
+ 
+        import { Router } from '@angular/router';
+6. Create a router variable in the constructor of the component
+        
+        constructor(private router: Router) { }
+7. Use navigation path defined in **app.module.ts** 
+    
+        this.router.navigateByUrl('/path');
