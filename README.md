@@ -126,3 +126,4 @@
       * **dashboard.component.html** - template for adding html elements
       * **dashboard.component.spec.ts** - template for writing test cases 
       * **dashboard.component.ts** - template for writing scripts
+4. Add relevant HTML, CS and TS for the dashboard component.
